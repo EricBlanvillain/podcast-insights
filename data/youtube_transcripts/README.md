@@ -6,13 +6,13 @@ Ce dossier contient les transcriptions de podcasts au format JSON.
 
 ```
 youtube_transcripts/
-├── lex_fridman/
+├── Lex_Fridman/
 │   ├── 2024_01_episode1.json
 │   └── 2024_01_episode2.json
-├── huberman_lab/
+├── Andrew_Huberman/
 │   ├── 2024_01_episode1.json
 │   └── 2024_01_episode2.json
-└── doac/
+└── The_Diary_Of_A_CEO/
     ├── 2024_01_episode1.json
     └── 2024_01_episode2.json
 ```
