@@ -1,34 +1,30 @@
 # Transcriptions de Podcasts
 
-Ce dossier contient les transcriptions de podcasts au format JSON.
-
 ## Structure
-
-```
-youtube_transcripts/
-├── Lex_Fridman/
-│   ├── 2024_01_episode1.json
-│   └── 2024_01_episode2.json
-├── Andrew_Huberman/
-│   ├── 2024_01_episode1.json
-│   └── 2024_01_episode2.json
-└── The_Diary_Of_A_CEO/
-    ├── 2024_01_episode1.json
-    └── 2024_01_episode2.json
-```
-
-## Format JSON
+Chaque transcription est stockée au format JSON avec la structure suivante :
 
 ```json
 {
     "title": "Titre de l'épisode",
     "channel": "Nom du podcast",
-    "published_at": "2024-01-01",
-    "text": "Transcription complète...",
+    "published_at": "YYYY-MM-DD",
+    "text": "Transcription...",
     "metadata": {
         "duration": "HH:MM:SS",
         "language": "en",
-        "url": "https://youtube.com/..."
+        "url": "URL de l'épisode"
     }
 }
+```
+
+## Gestion des données
+
+1. Générer des données de test :
+```bash
+python data/tools/generate_test_data.py
+```
+
+2. Backup de ChromaDB :
+```bash
+python data/tools/backup_chromadb.py
 ```
