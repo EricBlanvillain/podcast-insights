@@ -1,0 +1,11 @@
+{
+    "title": "The Future of AI - Example Episode",
+    "channel": "Lex Fridman",
+    "published_at": "2024-01-01",
+    "text": "Ceci est un exemple de transcription d'un épisode de podcast.",
+    "metadata": {
+        "duration": "02:15:30",
+        "language": "en",
+        "url": "https://youtube.com/example"
+    }
+}
